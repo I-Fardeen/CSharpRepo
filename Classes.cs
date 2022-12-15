@@ -1,6 +1,5 @@
 //Author: Fardeen Ahmad Khan
 using System;
-//namespace CsharpRepo{
 interface IDevice
 {
     string DeviceId { get; set; }
@@ -55,5 +54,3 @@ public class Computer : IDevice{
         Console.ReadLine();
     }
 }
-
-//}
